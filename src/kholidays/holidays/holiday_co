@@ -1,0 +1,38 @@
+:
+: Colombia holiday file
+:
+: See more
+: http://es.wikipedia.org/wiki/Fiestas_de_Colombia
+:
+:
+: Author: Xavier Corredor Llano <xavier.corredor.llano <a> gmail.com>
+
+
+: National holidays (fijas)
+
+small "Año nuevo" weekend on 1/1
+small "Inmaculada Concepción" weekend on 12/8
+small "Día del Trabajo" weekend on 5/1
+small "Navidad" weekend on 12/25
+small "Grito de la Independencia" weekend on 7/20
+small "Batalla de Boyacá" weekend on 8/7
+
+: National holidays (primer lunes despues de fecha base)
+
+small "Epifanía" weekend on monday after 1/6
+small "San José" weekend on monday after 3/19
+small "San Pedro y San Pablo" weekend on monday after 6/29
+small "Asunción de la Virgen" weekend on monday after 8/15
+small "Todos los Santos" weekend on monday after 11/1
+small "Día de la Raza" weekend on monday after 10/12
+small "Independencia de Cartagena" weekend on monday after 11/11
+
+: Pascua
+
+:small "Domingo de Ramos" weekend on easter minus 7
+small "Jueves Santo" weekend on easter minus 3
+small "Viernes Santo" weekend on easter minus 2
+:small "Domingo de Pascua" weekend on easter
+small "Ascensión de Jesús" weekend on easter plus 43
+small "Corpus Christi" weekend on easter plus 64
+small "Sagrado Corazón" weekend on easter plus 71
