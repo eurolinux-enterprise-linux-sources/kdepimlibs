@@ -7,7 +7,7 @@
 Name: kdepimlibs
 Summary: KDE PIM Libraries
 Version: 4.10.5
-Release: 3%{?dist}
+Release: 4%{?dist}
 
 # http://techbase.kde.org/Policies/Licensing_Policy
 License: LGPLv2+
@@ -40,7 +40,7 @@ BuildRequires: cyrus-sasl-devel
 BuildRequires: gpgme-devel
 BuildRequires: kdelibs4-devel >= %{version}
 BuildRequires: openldap-devel
-BuildRequires: libical-devel >= 0.33
+BuildRequires: libical-devel >= 1.0.1
 BuildRequires: nepomuk-core-devel >= %{version}
 BuildRequires: pkgconfig(akonadi) >= %{akonadi_version_min}
 BuildRequires: pkgconfig(libxslt)
@@ -288,6 +288,9 @@ update-mime-database %{_kde4_datadir}/mime >& /dev/null
 
 
 %changelog
+* Wed Jul 08 2015 Milan Crha <mcrha@redhat.com> - 4.10.5-4
+- Rebuild against updated libical
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 4.10.5-3
 - Mass rebuild 2014-01-24
 
