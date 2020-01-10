@@ -1,0 +1,7 @@
+add_subdirectory(imap)
+add_subdirectory(ldap)
+add_subdirectory(nntp)
+add_subdirectory(pop3)
+add_subdirectory(smtp)
+add_subdirectory(mbox)
+add_subdirectory(sieve)
